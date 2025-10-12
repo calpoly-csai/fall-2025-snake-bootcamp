@@ -4,8 +4,8 @@ import socketio
 from aiohttp import web
 from typing import Any, Dict
 
-
-from model import DQN
+from game import Game
+#from model import DQN
 
 
 sio = socketio.AsyncServer(cors_allowed_origins="*")
